@@ -1,0 +1,76 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.7)), url('./image/coffee.jpg');
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    box-sizing: border-box;
+}
+#head{
+    /* background-color: blueviolet; */
+    margin-top: 200px;
+}
+.container{
+    width: 500px;
+    height: 150px;
+    /* background-color: aqua; */
+    background: black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    box-shadow: 0px 0px 5px 3px #741a1a;
+
+}
+.title{
+    margin-top: 100px;
+    text-align: center;
+    margin: 13px 0px;
+    color: aqua;
+}
+input{
+    height: 25px;
+    border: 1px solid wheat;
+    border-radius: 5px;
+    background-color: transparent;
+    text-align: center;
+    color: white;
+}
+#in,#out{
+    margin-top: 25px;
+    /* margin: 0px 2px; */
+}
+#sel,#opt{
+    margin-top: 20px;
+    
+}
+#in{
+    margin-left: 50px;
+
+}
+#out{
+    margin-left: 50px;
+}
+
+#sel,#opt, option{
+    width: 166.66px;
+    margin-left: 55px;
+    height: 30px;
+    /* border: 1px solid white; */
+    border-radius: 5px;
+    background: transparent;
+    color: aqua;
+    background-color: black;
+}
+
+#opt{
+    margin-left: 60px;
+}
+#here{
+    margin-left: 50px;
+    margin-top: 15px;
+    color: red;
+}
